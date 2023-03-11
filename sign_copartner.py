@@ -174,7 +174,7 @@ class Copartner():
 
 
 if __name__ == "__main__":
-    with open("/ql/data/config/sg_check.json", "r", encoding="utf-8") as f:
+    with open("/ql/data/config/sg_config.json", "r", encoding="utf-8") as f:
         all_data = json.loads(f.read())
         _check_item = all_data.get("MUSIC_COPARTNER", [])
         res = ""
