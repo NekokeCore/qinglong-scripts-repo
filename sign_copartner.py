@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 """
 cron: 0 8 * * *
-new Env('网易音乐合伙人自动判定');
+new Env('网易音乐合伙人');
 """
 import requests
 import base64
